@@ -1,0 +1,14 @@
+.wrapperPageOne {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #19214c;
+  img {
+    margin: 0 auto;
+    opacity: 1;
+    height: 10%;
+    transition: 1s;
+  }
+}

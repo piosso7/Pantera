@@ -1,0 +1,91 @@
+.wrapperPageThree {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f5fbff;
+  overflow: hidden;
+  position: relative;
+  .whiteBg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 15%;
+    top: 0;
+    background-color: #fff;
+  }
+  .menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 10%;
+    margin-top: 2%;
+    z-index: 10;
+    .logoMenu {
+      width: auto;
+      height: 100%;
+    }
+    ul {
+      display: flex;
+      flex-direction: row;
+      width: 60%;
+      justify-content: center;
+      padding: 0;
+      li {
+        padding: 5px 4%;
+        list-style-type: none;
+        font-family: "Roboto", sans-serif;
+        font-size: 16px;
+        text-align: center;
+        a {
+          text-decoration: none;
+          color: #19214c;
+        }
+      }
+    }
+    .socialsec2 {
+      height: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      img {
+        height: 70%;
+        padding: 0 10px;
+      }
+    }
+  }
+  .wrapperSec3 {
+    height: 88%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    z-index: 10;
+    .leftImg {
+      position: relative;
+      margin-right: 5%;
+      height: 75%;
+      width: 25%;
+      z-index: 10;
+      overflow: hidden;
+      .briefcaseBG {
+        position: absolute;
+        top: 0;
+        height: 100%;
+      }
+      .briefcase {
+        position: absolute;
+        top: 0;
+        height: 100%;
+      }
+    }
+    .contentWrapperSec3 {
+      width: 65%;
+    }
+  }
+}
