@@ -86,6 +86,111 @@
     }
     .contentWrapperSec3 {
       width: 65%;
+      height: 86%;
+      display: flex;
+      flex-direction: column;
+      .titleWrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 10px;
+        h1 {
+          font-weight: 300;
+          font-family: "Yeseva One", cursive;
+          font-size: 65px;
+          color: #19214c;
+          margin: 0;
+        }
+        .thickBlueLine {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          background-color: none;
+          height: 10px;
+          width: 50%;
+          margin-bottom: 20px;
+          .TBLblue {
+            width: 6%;
+            height: 10px;
+            background-color: #0583ff;
+          }
+
+          .TBLgrey {
+            width: 94%;
+            height: 1px;
+            background-color: #dfe5eb;
+          }
+        }
+        .textWrapper {
+          width: 50%;
+          font-size: 18px;
+          color: #707070;
+          overflow: hidden;
+          margin-bottom: 20px;
+        }
+      }
+      .elements {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        height: 60%;
+        .element {
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          width: 25%;
+          margin-right: 5%;
+          .elementImg {
+            height: 25%;
+            img {
+              height: 100%;
+            }
+          }
+          .elementTitle {
+            height: 15%;
+            h2 {
+              font-weight: 300;
+              font-family: "Yeseva One", cursive;
+              height: 22.5px;
+            }
+          }
+          .elementText {
+            height: 35%;
+            width: 100%;
+            font-size: 18px;
+            color: #707070;
+            overflow: hidden;
+          }
+          .avatars {
+            height: 10%;
+            img {
+              height: 90%;
+            }
+          }
+          .hyperlink {
+            height: 15%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: flex-start;
+            width: 100%;
+            .smallBlueLine {
+              width: 5%;
+              height: 2px;
+              background-color: #0583ff;
+            }
+            button {
+              background-color: Transparent;
+              border: none;
+              cursor: pointer;
+              color: #0583ff;
+              font-size: 16px;
+            }
+          }
+        }
+      }
     }
   }
 }

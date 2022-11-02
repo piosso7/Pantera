@@ -7,6 +7,16 @@ import socialtwitter from "./img/socialtwitter.png";
 import socialm from "./img/socialm.png";
 import briefcase from "./img/briefcase.png";
 import briefcaseBG from "./img/briefcaseBG.png";
+import carAccidents from "./img/CarAccidents.png";
+import healthProblems from "./img/HealthProblems.png";
+import employeeRights from "./img/EmployeeRights.png";
+
+import avatar1 from "./img/avatar1.png";
+import avatar2 from "./img/avatar2.png";
+import avatar3 from "./img/avatar3.png";
+import avatar4 from "./img/avatar4.png";
+import avatar5 from "./img/avatar5.png";
+import avatar6 from "./img/avatar6.png";
 
 const PageThree = () => {
   return (
@@ -42,19 +52,23 @@ const PageThree = () => {
         <section className="contentWrapperSec3">
           <div className="titleWrapper">
             <div className="title">
-              <h1 id="titleS3H1">Our Work & Us</h1>
+              <h1>Our Work & Us</h1>
             </div>
-            <div>
+            <div className="thickBlueLine">
+              <div className="TBLblue"></div>
+              <div className="TBLgrey"></div>
+            </div>
+            <div className="textWrapper">
               <p className="text">
                 We are specialized in 3 major areas of law. Read about our
-                attorneys and let us take care of you
+                attorneys and let us take care of you.
               </p>
             </div>
           </div>
           <section className="elements">
             <div className="element">
               <div className="elementImg">
-                <img src="" alt="" />
+                <img src={carAccidents} alt="carAccidents" />
               </div>
               <div className="elementTitle">
                 <h2>Car Accidents</h2>
@@ -65,15 +79,19 @@ const PageThree = () => {
                   attorneys and let us take care of you.
                 </p>
               </div>
-              <div className="avatars"></div>
+              <div className="avatars">
+                <img src={avatar1} alt="avatar1" />
+                <img src={avatar2} alt="avatar2" />
+                <img src={avatar3} alt="avatar3" />
+              </div>
               <div class="hyperlink">
-                <div class="smallBlueLineS3" id="smallBlueLineS3"></div>
+                <div class="smallBlueLine"></div>
                 <button class="blueBtn">ATTORNEYS</button>
               </div>
             </div>
             <div className="element">
               <div className="elementImg">
-                <img src="" alt="" />
+                <img src={healthProblems} alt="healthProblems" />
               </div>
               <div className="elementTitle">
                 <h2>Health Problems</h2>
@@ -84,15 +102,18 @@ const PageThree = () => {
                   patients suffer.
                 </p>
               </div>
-              <div className="avatars"></div>
+              <div className="avatars">
+                <img src={avatar4} alt="avatar4" />
+                <img src={avatar5} alt="avatar5" />
+              </div>
               <div class="hyperlink">
-                <div class="smallBlueLineS3" id="smallBlueLineS3"></div>
+                <div class="smallBlueLine"></div>
                 <button class="blueBtn">ATTORNEYS</button>
               </div>
             </div>
             <div className="element">
               <div className="elementImg">
-                <img src="" alt="" />
+                <img src={employeeRights} alt="employeeRights" />
               </div>
               <div className="elementTitle">
                 <h2>Employee Rights</h2>
@@ -103,9 +124,12 @@ const PageThree = () => {
                   work place.
                 </p>
               </div>
-              <div className="avatars"></div>
+              <div className="avatars">
+                <img src={avatar6} alt="avatar6" />
+              </div>
+
               <div class="hyperlink">
-                <div class="smallBlueLineS3" id="smallBlueLineS3"></div>
+                <div class="smallBlueLine"></div>
                 <button class="blueBtn">ATTORNEYS</button>
               </div>
             </div>
