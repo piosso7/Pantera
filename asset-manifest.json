@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Pantera/static/css/main.56954c4f.css",
-    "main.js": "/Pantera/static/js/main.109ea92a.js",
+    "main.css": "/Pantera/static/css/main.8cda4270.css",
+    "main.js": "/Pantera/static/js/main.835e454a.js",
     "static/media/teamwork.mp4": "/Pantera/static/media/teamwork.18b9ab9d430dd8f7ae1c.mp4",
     "static/media/briefcase.png": "/Pantera/static/media/briefcase.3243626d3396c3a3bf12.png",
     "static/media/briefcaseBG.png": "/Pantera/static/media/briefcaseBG.17bf5b1b64832ee1e302.png",
     "static/media/avatar.png": "/Pantera/static/media/avatar.a7928c95a5b8251bc7ed.png",
     "index.html": "/Pantera/index.html",
-    "main.56954c4f.css.map": "/Pantera/static/css/main.56954c4f.css.map",
-    "main.109ea92a.js.map": "/Pantera/static/js/main.109ea92a.js.map"
+    "main.8cda4270.css.map": "/Pantera/static/css/main.8cda4270.css.map",
+    "main.835e454a.js.map": "/Pantera/static/js/main.835e454a.js.map"
   },
   "entrypoints": [
-    "static/css/main.56954c4f.css",
-    "static/js/main.109ea92a.js"
+    "static/css/main.8cda4270.css",
+    "static/js/main.835e454a.js"
   ]
 }
