@@ -1,10 +1,10 @@
 import React from "react";
-import logoWhite from "./img/logoWhite.png";
-import "./styles/pageOneStyle.scss";
+import logoWhite from "../img/logoWhite.png";
+import style from "../styles/pageOneStyle.scss";
 
 const PageOne = () => {
   return (
-    <div className="wrapperPageOne">
+    <div style={style} className="wrapperPageOne">
       <img src={logoWhite} alt="logo" />
     </div>
   );

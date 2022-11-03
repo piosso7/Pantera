@@ -1,14 +1,14 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
-import style from "./styles/pageTwoStyle.scss";
-import logoBlue from "./img/logoBlue.png";
-import socialin from "./img/socialin.png";
-import socialtwitter from "./img/socialtwitter.png";
-import socialm from "./img/socialm.png";
-import avatar from "./img/avatar.png";
-import teamworkVideo from "./video/teamwork.mp4";
-import playImg from "./img/play.png";
-import blueArrow from "./img/blueArrow.png";
+import style from "../styles/pageTwoStyle.scss";
+import logoBlue from "../img/logoBlue.png";
+import socialin from "../img/socialin.png";
+import socialtwitter from "../img/socialtwitter.png";
+import socialm from "../img/socialm.png";
+import avatar from "../img/avatar.png";
+import teamworkVideo from "../video/teamwork.mp4";
+import playImg from "../img/play.png";
+import blueArrow from "../img/blueArrow.png";
 
 const PageTwo = () => {
   return (

@@ -4,9 +4,10 @@ import {
   FullPageSections,
   FullpageSection,
 } from "@ap.cx/react-fullpage";
-import PageOne from "./PageOne";
-import PageTwo from "./PageTwo";
-import PageThree from "./PageThree";
+import PageOne from "./pages/PageOne";
+import PageTwo from "./pages/PageTwo";
+import PageThree from "./pages/PageThree";
+import PageFour from "./pages/PageFour";
 
 const FullPageScroll = () => {
   const SectionStyle = {
@@ -27,6 +28,9 @@ const FullPageScroll = () => {
         </FullpageSection>
         <FullpageSection style={SectionStyle}>
           <PageThree />
+        </FullpageSection>
+        <FullpageSection style={SectionStyle}>
+          <PageFour />
         </FullpageSection>
       </FullPageSections>
     </Fullpage>

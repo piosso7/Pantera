@@ -6,6 +6,7 @@
   align-items: center;
   background-color: #f5fbff;
   overflow: hidden;
+  z-index: 10;
   .menu {
     display: flex;
     flex-direction: row;
@@ -16,7 +17,7 @@
     margin-top: 2%;
     .logoMenu {
       width: auto;
-      height: 100%;
+      height: 75%;
     }
     ul {
       display: flex;
@@ -175,10 +176,9 @@
           align-items: center;
           width: 30%;
           z-index: 3;
+          top: 50%;
           left: 50%;
-          margin-left: -15%;
-          top: 40%;
-          margin-top: -5%;
+          transform: translate(-50%, -50%);
           text-decoration: none;
           color: #fff;
           font-size: 13px;

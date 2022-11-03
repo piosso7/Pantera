@@ -1,0 +1,174 @@
+.wrapperPageFour {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #19214c;
+  overflow: hidden;
+  .menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 10%;
+    margin-top: 2%;
+    .logoMenu {
+      width: auto;
+      height: 75%;
+    }
+    ul {
+      display: flex;
+      flex-direction: row;
+      width: 60%;
+      justify-content: center;
+      padding: 0;
+      li {
+        padding: 5px 4%;
+        list-style-type: none;
+        font-family: "Roboto", sans-serif;
+        font-size: 16px;
+        text-align: center;
+        a {
+          text-decoration: none;
+          color: #ffffff;
+        }
+      }
+    }
+    .socialsec4 {
+      height: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      img {
+        height: 70%;
+        padding: 0 10px;
+      }
+    }
+  }
+  .wrapperSec4 {
+    height: 86%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    z-index: 10;
+    .titleWrapper {
+      height: 20%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 20px;
+      h1 {
+        font-weight: 300;
+        font-family: "Yeseva One", cursive;
+        font-size: 65px;
+        color: #ffffff;
+        margin-bottom: 10px;
+        margin-top: 20px;
+      }
+      .thickBlueLine {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        background-color: none;
+        height: 10px;
+        width: 110%;
+        margin-bottom: 20px;
+        .TBLblue {
+          width: 10%;
+          height: 10px;
+          background-color: #0583ff;
+        }
+        .TBLgrey {
+          width: 45%;
+          height: 1px;
+          background-color: #dfe5eb;
+        }
+      }
+    }
+    .mark {
+      height: 15%;
+      p {
+        display: inline;
+        font-family: "Yeseva One", cursive;
+        font-size: 260px;
+        line-height: 0px;
+        color: #707070;
+        margin: 0;
+      }
+    }
+    .description {
+      width: 60%;
+      height: 35%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .descriptionTitle {
+        height: 15%;
+        margin-top: 5%;
+        h2 {
+          font-weight: 300;
+          font-family: "Yeseva One", cursive;
+          height: 22.5px;
+          color: #ffffff;
+        }
+      }
+      .descriptionText {
+        width: 100%;
+        font-size: 18px;
+        color: #ffffff;
+        overflow: hidden;
+        text-align: center;
+        margin-top: 10px;
+      }
+    }
+    .footer {
+      height: 28%;
+      width: 90%;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      .attorney {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        p {
+          color: #ffffff;
+          font-size: 18px;
+        }
+        .person {
+          width: 100%;
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          img {
+            height: 20%;
+            margin-right: 10px;
+          }
+        }
+      }
+      .procentage {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        p {
+          color: #ffffff;
+          font-size: 18px;
+        }
+        .procent {
+          font-family: "Yeseva One", cursive;
+          font-size: 52px;
+          margin: 0;
+        }
+      }
+    }
+  }
+}

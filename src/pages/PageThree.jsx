@@ -1,22 +1,22 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
-import style from "./styles/pageThreeStyle.scss";
-import logoBlue from "./img/logoBlue.png";
-import socialin from "./img/socialin.png";
-import socialtwitter from "./img/socialtwitter.png";
-import socialm from "./img/socialm.png";
-import briefcase from "./img/briefcase.png";
-import briefcaseBG from "./img/briefcaseBG.png";
-import carAccidents from "./img/CarAccidents.png";
-import healthProblems from "./img/HealthProblems.png";
-import employeeRights from "./img/EmployeeRights.png";
+import style from "../styles/pageThreeStyle.scss";
+import logoBlue from "../img/logoBlue.png";
+import socialin from "../img/socialin.png";
+import socialtwitter from "../img/socialtwitter.png";
+import socialm from "../img/socialm.png";
+import briefcase from "../img/briefcase.png";
+import briefcaseBG from "../img/briefcaseBG.png";
+import carAccidents from "../img/CarAccidents.png";
+import healthProblems from "../img/HealthProblems.png";
+import employeeRights from "../img/EmployeeRights.png";
 
-import avatar1 from "./img/avatar1.png";
-import avatar2 from "./img/avatar2.png";
-import avatar3 from "./img/avatar3.png";
-import avatar4 from "./img/avatar4.png";
-import avatar5 from "./img/avatar5.png";
-import avatar6 from "./img/avatar6.png";
+import avatar1 from "../img/avatar1.png";
+import avatar2 from "../img/avatar2.png";
+import avatar3 from "../img/avatar3.png";
+import avatar4 from "../img/avatar4.png";
+import avatar5 from "../img/avatar5.png";
+import avatar6 from "../img/avatar6.png";
 
 const PageThree = () => {
   return (
