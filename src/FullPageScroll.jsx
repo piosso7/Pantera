@@ -9,6 +9,7 @@ import PageTwo from "./pages/PageTwo";
 import PageThree from "./pages/PageThree";
 import PageFour from "./pages/PageFour";
 import PageFive from "./pages/PageFive";
+import PageSix from "./pages/PageSix";
 
 const FullPageScroll = () => {
   const SectionStyle = {
@@ -35,6 +36,9 @@ const FullPageScroll = () => {
         </FullpageSection>
         <FullpageSection style={SectionStyle}>
           <PageFive />
+        </FullpageSection>
+        <FullpageSection style={SectionStyle}>
+          <PageSix />
         </FullpageSection>
       </FullPageSections>
     </Fullpage>

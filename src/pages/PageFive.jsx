@@ -14,7 +14,7 @@ import news2 from "../img/news2.png";
 import news3 from "../img/news3.png";
 import news4 from "../img/news4.png";
 
-const PageThree = () => {
+const PageFive = () => {
   return (
     <div style={style} class="wrapperPageFive">
       <div class="menu">
@@ -129,4 +129,4 @@ const PageThree = () => {
   );
 };
 
-export default PageThree;
+export default PageFive;
