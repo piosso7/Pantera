@@ -70,11 +70,13 @@
         flex-direction: column;
         align-items: flex-start;
         justify-content: center;
+        overflow: hidden;
         .title {
           display: flex;
           flex-direction: column;
           align-items: flex-start;
           margin-bottom: 10px;
+          overflow: hidden;
           h1 {
             font-weight: 300;
             font-family: "Yeseva One", cursive;
@@ -114,6 +116,7 @@
           flex-direction: row;
           align-items: center;
           justify-content: flex-start;
+
           width: 100%;
           .smallBlueLine {
             width: 3%;
@@ -126,6 +129,7 @@
             cursor: pointer;
             color: #0583ff;
             font-size: 16px;
+            overflow: hidden;
           }
         }
       }
@@ -140,6 +144,7 @@
         padding-right: 5%;
         transition: 1s;
         transition-delay: 0.5s;
+        overflow: hidden;
         img {
           width: 80%;
           padding-right: 30%;
@@ -196,7 +201,8 @@
           font-size: 13px;
           margin-left: 5%;
           margin-top: 5%;
-          transition: 0.5s;
+          overflow: hidden;
+          transition: 1.5s;
         }
         form {
           display: flex;
@@ -206,7 +212,7 @@
           width: 75%;
           margin-left: 5%;
           margin-bottom: 10%;
-          transition: 1s;
+          transition: 2s;
           input {
             width: 90%;
             color: #fff;

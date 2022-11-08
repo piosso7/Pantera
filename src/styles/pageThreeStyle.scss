@@ -94,12 +94,16 @@
         flex-direction: column;
         align-items: flex-start;
         margin-bottom: 10px;
-        h1 {
-          font-weight: 300;
-          font-family: "Yeseva One", cursive;
-          font-size: 65px;
-          color: #19214c;
-          margin: 0;
+        .title {
+          overflow: hidden;
+          h1 {
+            font-weight: 300;
+            font-family: "Yeseva One", cursive;
+            font-size: 65px;
+            color: #19214c;
+            margin: 0;
+            overflow: hidden;
+          }
         }
         .thickBlueLine {
           display: flex;
@@ -170,6 +174,7 @@
             }
           }
           .hyperlink {
+            overflow: hidden;
             height: 15%;
             display: flex;
             flex-direction: row;
