@@ -4,9 +4,26 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #19214c;
   overflow: hidden;
+  position: relative;
+  .blueBackground {
+    position: absolute;
+    background-color: #0583ff;
+    width: 50%;
+    height: 100%;
+    left: 0;
+    top: 0;
+  }
+  .darkBlueBackground {
+    position: absolute;
+    background-color: #19214c;
+    width: 100%;
+    height: 100%;
+    right: 0;
+    top: 0;
+  }
   .menu {
+    background-color: #19214c;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -14,6 +31,7 @@
     width: 90%;
     height: 10%;
     margin-top: 2%;
+    z-index: 10;
     .logoMenu {
       width: auto;
       height: 75%;
@@ -62,14 +80,18 @@
       flex-direction: column;
       align-items: center;
       margin-top: 20px;
-      h1 {
-        font-weight: 300;
-        font-family: "Yeseva One", cursive;
-        font-size: 65px;
-        color: #ffffff;
-        margin-bottom: 10px;
-        margin-top: 20px;
+      .title {
+        overflow: hidden;
+        h1 {
+          font-weight: 300;
+          font-family: "Yeseva One", cursive;
+          font-size: 65px;
+          color: #ffffff;
+          margin-bottom: 10px;
+          margin-top: 20px;
+        }
       }
+
       .thickBlueLine {
         display: flex;
         flex-direction: row;

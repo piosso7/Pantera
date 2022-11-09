@@ -20,7 +20,7 @@ const PageTwo = () => {
   }, []);
   return (
     <div style={style} class="wrapperPageTwo">
-      <div class="menu" data-aos="slide-down" data-aos-delay="500">
+      <div class="menu" data-aos="fade-down" data-aos-delay="500">
         <img src={logoBlue} alt="logo" class="logoMenu" />
         <ul>
           <li>

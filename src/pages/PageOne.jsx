@@ -13,8 +13,8 @@ const PageOne = () => {
     <div style={style} className="wrapperPageOne">
       <img
         data-aos="fade-in"
-        data-aos-delay="500"
-        data-aos-once="false"
+        data-aos-delay="1000"
+        data-aos-duration="1500"
         src={logoWhite}
         alt="logo"
       />

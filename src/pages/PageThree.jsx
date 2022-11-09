@@ -29,7 +29,7 @@ const PageThree = () => {
   return (
     <div style={style} class="wrapperPageThree">
       <div class="whiteBg" data-aos="slide-left" data-aos-delay="500"></div>
-      <div class="menu" data-aos="slide-down" data-aos-delay="500">
+      <div class="menu" data-aos="fade-down" data-aos-delay="500">
         <img src={logoBlue} alt="logo" class="logoMenu" />
         <ul>
           <li>
