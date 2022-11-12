@@ -49,7 +49,7 @@ const PageFive = () => {
         <div className="titleWrapper">
           <div className="title">
             <div>
-              <h1 data-aos="slide-up" data-aos-delay="500">
+              <h1 data-aos="slide-up" data-aos-delay="1000">
                 Recent News
               </h1>
             </div>
@@ -88,8 +88,16 @@ const PageFive = () => {
                     The recent pandemic made lives very unpredictable, while
                     still requiring...
                   </p>
-                  <div class="hyperlink">
-                    <div class="smallBlueLine"></div>
+                  <div
+                    class="hyperlink"
+                    data-aos="fade-up"
+                    data-aos-delay="1600"
+                  >
+                    <div
+                      class="smallBlueLine"
+                      data-aos="slide-right"
+                      data-aos-delay="2000"
+                    ></div>
                     <button class="blueBtn">READ MORE</button>
                   </div>
                 </div>
@@ -104,8 +112,16 @@ const PageFive = () => {
                     The recent pandemic made lives very unpredictable, while
                     still requiring...
                   </p>
-                  <div class="hyperlink">
-                    <div class="smallBlueLine"></div>
+                  <div
+                    class="hyperlink"
+                    data-aos="fade-up"
+                    data-aos-delay="1600"
+                  >
+                    <div
+                      class="smallBlueLine"
+                      data-aos="slide-right"
+                      data-aos-delay="2000"
+                    ></div>
                     <button class="blueBtn">READ MORE</button>
                   </div>
                 </div>
@@ -120,8 +136,16 @@ const PageFive = () => {
                     The recent pandemic made lives very unpredictable, while
                     still requiring...
                   </p>
-                  <div class="hyperlink">
-                    <div class="smallBlueLine"></div>
+                  <div
+                    class="hyperlink"
+                    data-aos="fade-up"
+                    data-aos-delay="1600"
+                  >
+                    <div
+                      class="smallBlueLine"
+                      data-aos="slide-right"
+                      data-aos-delay="2000"
+                    ></div>
                     <button class="blueBtn">READ MORE</button>
                   </div>
                 </div>
@@ -136,8 +160,16 @@ const PageFive = () => {
                     The recent pandemic made lives very unpredictable, while
                     still requiring...
                   </p>
-                  <div class="hyperlink">
-                    <div class="smallBlueLine"></div>
+                  <div
+                    class="hyperlink"
+                    data-aos="fade-up"
+                    data-aos-delay="1600"
+                  >
+                    <div
+                      class="smallBlueLine"
+                      data-aos="slide-right"
+                      data-aos-delay="2000"
+                    ></div>
                     <button class="blueBtn">READ MORE</button>
                   </div>
                 </div>

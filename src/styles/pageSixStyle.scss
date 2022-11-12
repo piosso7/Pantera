@@ -56,12 +56,36 @@
     height: 30%;
     bottom: 0;
     left: 0;
+    overflow: hidden;
     img {
       position: absolute;
       width: 100%;
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
+    }
+    .pulseDot {
+      width: 20px;
+      height: 20px;
+      background-color: rgba(5, 131, 255, 0.2);
+      border-radius: 50%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      transition: 1s;
+      animation: pulseDot 1s steps(20, end) 2s infinite both;
+    }
+    @keyframes pulseDot {
+      0% {
+        width: 20px;
+        height: 20px;
+      }
+
+      100% {
+        width: 150px;
+        height: 150px;
+      }
     }
     .dot {
       width: 20px;
@@ -88,6 +112,7 @@
       position: relative;
       width: 25%;
       height: 80%;
+      overflow: hidden;
       .blueBox {
         width: 100%;
         height: 100%;
@@ -109,6 +134,7 @@
           font-weight: 300;
           font-family: "Yeseva One", cursive;
           color: #ffffff;
+          overflow: hidden;
         }
         form {
           width: 80%;
@@ -127,6 +153,9 @@
             padding: 10px;
             outline: none;
             border-bottom: solid 2px #707070;
+          }
+          ::placeholder {
+            color: #fff;
           }
           select {
             appearance: none;
@@ -198,6 +227,7 @@
         flex-direction: column;
         align-items: flex-start;
         margin-bottom: 10px;
+        overflow: hidden;
         h1 {
           font-weight: 300;
           font-family: "Yeseva One", cursive;
@@ -214,7 +244,7 @@
         width: 85%;
         margin-bottom: 20px;
         .TBLblue {
-          width: 6%;
+          width: 15%;
           height: 10px;
           background-color: #0583ff;
         }
