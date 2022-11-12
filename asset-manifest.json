@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Pantera/static/css/main.8f57a2b2.css",
-    "main.js": "/Pantera/static/js/main.d0652136.js",
+    "main.css": "/Pantera/static/css/main.c18c2c05.css",
+    "main.js": "/Pantera/static/js/main.de5099b3.js",
     "static/media/teamwork.mp4": "/Pantera/static/media/teamwork.18b9ab9d430dd8f7ae1c.mp4",
     "static/media/briefcase.png": "/Pantera/static/media/briefcase.3243626d3396c3a3bf12.png",
     "static/media/briefcaseBG.png": "/Pantera/static/media/briefcaseBG.17bf5b1b64832ee1e302.png",
@@ -12,11 +12,11 @@
     "static/media/news3.png": "/Pantera/static/media/news3.a714996c8995ce98eb2f.png",
     "static/media/news1.png": "/Pantera/static/media/news1.772103caae1906d15e5e.png",
     "index.html": "/Pantera/index.html",
-    "main.8f57a2b2.css.map": "/Pantera/static/css/main.8f57a2b2.css.map",
-    "main.d0652136.js.map": "/Pantera/static/js/main.d0652136.js.map"
+    "main.c18c2c05.css.map": "/Pantera/static/css/main.c18c2c05.css.map",
+    "main.de5099b3.js.map": "/Pantera/static/js/main.de5099b3.js.map"
   },
   "entrypoints": [
-    "static/css/main.8f57a2b2.css",
-    "static/js/main.d0652136.js"
+    "static/css/main.c18c2c05.css",
+    "static/js/main.de5099b3.js"
   ]
 }
