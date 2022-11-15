@@ -4,6 +4,7 @@ import style from "../styles/pageOneStyle.scss";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import autoScrollFirstPage from "../functions/autoScrollFirstPage";
 
 const PageOne = () => {
   useEffect(() => {
@@ -21,5 +22,7 @@ const PageOne = () => {
     </div>
   );
 };
+
+autoScrollFirstPage();
 
 export default PageOne;

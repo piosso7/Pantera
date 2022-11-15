@@ -4,6 +4,13 @@ import style from "../styles/pageFiveStyle.scss";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import {
+  scrollPageOne,
+  scrollPageThree,
+  scrollPageFour,
+  scrollPageFive,
+  scrollPageSix,
+} from "../functions/useWindowScrollPositions";
 
 import logoBlue from "../img/logoBlue.png";
 import socialin from "../img/socialin.png";
@@ -23,19 +30,24 @@ const PageFive = () => {
   return (
     <div style={style} class="wrapperPageFive">
       <div class="menu" data-aos="fade-down" data-aos-delay="500">
-        <img src={logoBlue} alt="logo" class="logoMenu" />
+        <img
+          onClick={scrollPageOne}
+          src={logoBlue}
+          alt="logo"
+          class="logoMenu"
+        />
         <ul>
           <li>
-            <a href="#">OUR WORK & US</a>
+            <a onClick={scrollPageThree}>OUR WORK & US</a>
           </li>
           <li>
-            <a href="#">HAPPY ENDINGS</a>
+            <a onClick={scrollPageFour}>HAPPY ENDINGS</a>
           </li>
           <li>
-            <a href="#">RECENT NEWS</a>
+            <a onClick={scrollPageFive}>RECENT NEWS</a>
           </li>
           <li>
-            <a href="#">CONTACT US</a>
+            <a onClick={scrollPageSix}>CONTACT US</a>
           </li>
         </ul>
         <div class="social">

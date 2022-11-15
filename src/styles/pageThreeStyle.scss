@@ -27,6 +27,7 @@
     .logoMenu {
       width: auto;
       height: 75%;
+      cursor: pointer;
     }
     ul {
       display: flex;
@@ -43,6 +44,7 @@
         a {
           text-decoration: none;
           color: #19214c;
+          cursor: pointer;
         }
       }
     }
