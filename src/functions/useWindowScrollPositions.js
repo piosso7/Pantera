@@ -6,17 +6,17 @@ export function scrollPageOne() {
 
 export function scrollPageThree() {
   let docHeight = document.body.offsetHeight;
-  let scrollToValue = docHeight - docHeight * 0.6;
+  let scrollToValue = docHeight - docHeight * 0.65;
   window.scrollTo(0, scrollToValue);
 }
 export function scrollPageFour() {
   let docHeight = document.body.offsetHeight;
-  let scrollToValue = docHeight - docHeight * 0.45;
+  let scrollToValue = docHeight - docHeight * 0.5;
   window.scrollTo(0, scrollToValue);
 }
 export function scrollPageFive() {
   let docHeight = document.body.offsetHeight;
-  let scrollToValue = docHeight - docHeight * 0.3;
+  let scrollToValue = docHeight - docHeight * 0.32;
   window.scrollTo(0, scrollToValue);
 }
 export function scrollPageSix() {
