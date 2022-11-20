@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React from "react";
+import React, { useState } from "react";
 import style from "../styles/pageFourStyle.scss";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -20,11 +20,40 @@ import socialmwhite from "../img/socialmwhite.png";
 import avatar from "../img/avatar3.png";
 
 const PageFour = () => {
+  let i = 0;
+  const [count, setCount] = useState(0);
+
+  function increase() {
+    if (i < 88) {
+      setTimeout(function () {
+        setCount(i);
+        i++;
+        increase();
+      }, 15);
+    }
+  }
+
+  function startIncrease() {
+    if (count < 87) {
+      setTimeout(function () {
+        increase();
+      }, 1000);
+    } else return;
+  }
+  function startDecrease() {
+    setCount(0);
+  }
+
   useEffect(() => {
     Aos.init({ once: false });
   }, []);
   return (
-    <div style={style} class="wrapperPageFour">
+    <div
+      onMouseEnter={startIncrease}
+      onMouseLeave={startDecrease}
+      style={style}
+      class="wrapperPageFour"
+    >
       <div
         className="blueBackground"
         data-aos="slide-right"
@@ -123,7 +152,7 @@ const PageFour = () => {
           </div>
           <div className="procentage" data-aos="fade-up" data-aos-delay="1400">
             <p>WIN PROCENTAGE</p>
-            <p className="procent">87%</p>
+            <h1 className="percent">{count}%</h1>
           </div>
         </div>
       </div>
