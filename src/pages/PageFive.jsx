@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React from "react";
+import React, { useState } from "react";
 import style from "../styles/pageFiveStyle.scss";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -27,6 +27,17 @@ const PageFive = () => {
   useEffect(() => {
     Aos.init({ once: false });
   }, []);
+
+  const [isActive, setIsActive] = useState(false);
+
+  const moveLeft = (event) => {
+    setIsActive(true);
+  };
+
+  const moveRight = (event) => {
+    setIsActive(false);
+  };
+
   return (
     <div style={style} class="wrapperPageFive">
       <div class="menu" data-aos="fade-down" data-aos-delay="500">
@@ -76,12 +87,14 @@ const PageFive = () => {
           </div>
           <div className="arrows">
             <img
+              onClick={moveRight}
               src={arrowLeft}
               alt=""
               data-aos="fade-left"
               data-aos-delay="1000"
             />
             <img
+              onClick={moveLeft}
               src={arrowRight}
               alt=""
               data-aos="fade-right"
@@ -90,7 +103,7 @@ const PageFive = () => {
           </div>
         </div>
         <div className="newsWrapper">
-          <div className="wrapper">
+          <div className={isActive ? "wrapper move" : "wrapper"}>
             <div className="news">
               <div data-aos="slide-right" data-aos-delay="800">
                 <img src={news1} alt="news1" />

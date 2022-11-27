@@ -143,6 +143,7 @@
         align-items: flex-start;
         justify-content: space-between;
         overflow: hidden;
+        transition: 1s;
         .news {
           width: 23%;
           overflow: hidden;
@@ -193,6 +194,19 @@
             }
           }
         }
+      }
+      .move{
+        top: 0;
+        left: -20%;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        position: absolute;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+        overflow: hidden;
+        transition: 1s;
       }
     }
   }
