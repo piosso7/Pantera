@@ -6,7 +6,7 @@ export function scrollPageOne() {
 
 export function scrollPageThree() {
   let docHeight = document.body.offsetHeight;
-  let scrollToValue = docHeight - docHeight * 0.65;
+  let scrollToValue = docHeight - docHeight * 0.6;
   window.scrollTo(0, scrollToValue);
 }
 export function scrollPageFour() {
