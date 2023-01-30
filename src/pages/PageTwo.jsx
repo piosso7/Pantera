@@ -128,6 +128,7 @@ const PageTwo = () => {
               data-aos="fade-up"
               data-aos-delay="1000"
               data-aos-duration="10000"
+              data-aos-offset="0"
             >
               GET DAILY UPDATES
             </p>

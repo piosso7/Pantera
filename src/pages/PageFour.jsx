@@ -88,7 +88,7 @@ const PageFour = () => {
             <a onClick={scrollPageSix}>CONTACT US</a>
           </li>
         </ul>
-        <div class="socialsec4">
+        <div class="socialsec2">
           <img src={socialinwhite} alt="social" />
           <img src={socialtwitterwhite} alt="social" />
           <img src={socialmwhite} alt="social" />
@@ -143,14 +143,24 @@ const PageFour = () => {
           </div>
         </div>
         <div className="footer">
-          <div className="attorney" data-aos="fade-up" data-aos-delay="1400">
+          <div
+            className="attorney"
+            data-aos="fade-up"
+            data-aos-delay="1400"
+            data-aos-offset="0"
+          >
             <p>ATTORNEY</p>
             <div className="person">
               <img src={avatar} alt="avatar" />
               <p>Thomas Rosevelt</p>
             </div>
           </div>
-          <div className="procentage" data-aos="fade-up" data-aos-delay="1400">
+          <div
+            className="procentage"
+            data-aos="fade-up"
+            data-aos-delay="1400"
+            data-aos-offset="0"
+          >
             <p>WIN PROCENTAGE</p>
             <h1 className="percent">{count}%</h1>
           </div>

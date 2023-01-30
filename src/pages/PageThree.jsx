@@ -129,16 +129,27 @@ const PageThree = () => {
                   attorneys and let us take care of you.
                 </p>
               </div>
-              <div className="avatars" data-aos="fade-up" data-aos-delay="1100">
+              <div
+                className="avatars"
+                data-aos="fade-up"
+                data-aos-delay="1100"
+                data-aos-offset="0"
+              >
                 <img src={avatar1} alt="avatar1" />
                 <img src={avatar2} alt="avatar2" />
                 <img src={avatar3} alt="avatar3" />
               </div>
-              <div class="hyperlink" data-aos="fade-up" data-aos-delay="1200">
+              <div
+                class="hyperlink"
+                data-aos="fade-up"
+                data-aos-delay="1200"
+                data-aos-offset="0"
+              >
                 <div
                   class="smallBlueLine"
                   data-aos="slide-right"
                   data-aos-delay="2000"
+                  data-aos-offset="0"
                 ></div>
                 <button class="blueBtn">ATTORNEYS</button>
               </div>
@@ -168,15 +179,26 @@ const PageThree = () => {
                   patients suffer.
                 </p>
               </div>
-              <div className="avatars" data-aos="fade-up" data-aos-delay="1100">
+              <div
+                className="avatars"
+                data-aos="fade-up"
+                data-aos-delay="1100"
+                data-aos-offset="0"
+              >
                 <img src={avatar4} alt="avatar4" />
                 <img src={avatar5} alt="avatar5" />
               </div>
-              <div class="hyperlink" data-aos="fade-up" data-aos-delay="1200">
+              <div
+                class="hyperlink"
+                data-aos="fade-up"
+                data-aos-delay="1200"
+                data-aos-offset="0"
+              >
                 <div
                   class="smallBlueLine"
                   data-aos="slide-right"
                   data-aos-delay="2000"
+                  data-aos-offset="0"
                 ></div>
                 <button class="blueBtn">ATTORNEYS</button>
               </div>
@@ -206,12 +228,23 @@ const PageThree = () => {
                   work place.
                 </p>
               </div>
-              <div className="avatars" data-aos="fade-up" data-aos-delay="1100">
+              <div
+                className="avatars"
+                data-aos="fade-up"
+                data-aos-delay="1100"
+                data-aos-offset="0"
+              >
                 <img src={avatar6} alt="avatar6" />
               </div>
 
-              <div class="hyperlink" data-aos="fade-up" data-aos-delay="1200">
+              <div
+                class="hyperlink"
+                data-aos="fade-up"
+                data-aos-delay="1200"
+                data-aos-offset="0"
+              >
                 <div
+                  data-aos-offset="0"
                   class="smallBlueLine"
                   data-aos="slide-right"
                   data-aos-delay="2000"

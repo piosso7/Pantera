@@ -56,7 +56,7 @@
         }
       }
     }
-    .socialsec4 {
+    .socialsec2 {
       height: 100%;
       display: flex;
       flex-direction: row;
@@ -152,8 +152,9 @@
       }
     }
     .footer {
-      height: 28%;
       width: 90%;
+      margin-top: auto;
+      margin-bottom: 5%;
       display: flex;
       flex-direction: row;
       align-items: center;
@@ -192,6 +193,173 @@
           font-size: 52px;
           margin: 0;
           color: #ffffff;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1400px) {
+  .wrapperPageFour {
+    .menu {
+      .logoMenu {
+        height: 75%;
+      }
+      ul {
+        width: 70%;
+        li {
+          font-size: 12px;
+          a {
+            text-decoration: none;
+            cursor: pointer;
+          }
+        }
+      }
+      .socialsec2 {
+        width: 20%;
+      }
+    }
+  }
+}
+@media (max-width: 1200px) {
+  .wrapperPageFour {
+    .wrapperSec4 {
+      .titleWrapper {
+        .title {
+          overflow: hidden;
+          h1 {
+            font-size: 40px;
+          }
+        }
+      }
+      .mark {
+        height: 15%;
+        p {
+          font-size: 160px;
+        }
+      }
+      .description {
+        .descriptionTitle {
+          h2 {
+            font-weight: 300;
+            font-family: "Yeseva One", cursive;
+            height: 18px;
+            color: #ffffff;
+          }
+        }
+        .descriptionText {
+          font-size: 14px;
+        }
+      }
+      .footer {
+        .attorney {
+          p {
+            font-size: 14px;
+          }
+        }
+        .procentage {
+          p {
+            font-size: 14px;
+          }
+          .percent {
+            font-size: 40px;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1024px) {
+  .wrapperPageFour {
+    .menu {
+      .logoMenu {
+        height: 50%;
+      }
+      ul {
+        width: 70%;
+        li {
+          font-size: 10px;
+          a {
+            text-decoration: none;
+            cursor: pointer;
+          }
+        }
+      }
+      .socialsec2 {
+        width: 20%;
+        img {
+          height: 50%;
+          padding: 0 10px;
+        }
+      }
+    }
+    .wrapperSec4 {
+      .titleWrapper {
+        .thickBlueLine {
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  .wrapperPageFour {
+    .menu {
+      ul {
+        li {
+          font-size: 10px;
+          padding: 5px 2%;
+        }
+      }
+      .socialsec2 {
+        img {
+          padding: 0px;
+        }
+      }
+    }
+    .wrapperSec4 {
+      .titleWrapper {
+        .thickBlueLine {
+          margin-bottom: 10px;
+        }
+      }
+      .mark {
+        height: 10%;
+        p {
+          font-size: 80px;
+        }
+      }
+      .description {
+        height: auto;
+        .descriptionTitle {
+          h2 {
+            font-weight: 300;
+            font-family: "Yeseva One", cursive;
+            color: #ffffff;
+            font-size: 18px;
+          }
+        }
+        .descriptionText {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 480px) {
+  .wrapperPageFour {
+    .menu {
+      ul {
+        flex-wrap: wrap;
+        li {
+          width: 45%;
+          font-size: 10px;
+          padding: 5px 2%;
+        }
+      }
+      .socialsec2 {
+        width: 30%;
+        img {
+          padding: 0px;
         }
       }
     }
