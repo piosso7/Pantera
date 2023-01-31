@@ -61,7 +61,7 @@ const PageFive = () => {
             <a onClick={scrollPageSix}>CONTACT US</a>
           </li>
         </ul>
-        <div class="social">
+        <div class="socialsec2">
           <img src={socialin} alt="social" />
           <img src={socialtwitter} alt="social" />
           <img src={socialm} alt="social" />
@@ -146,6 +146,7 @@ const PageFive = () => {
                       class="smallBlueLine"
                       data-aos="slide-right"
                       data-aos-delay="2000"
+                      data-aos-offset="0"
                     ></div>
                     <button class="blueBtn">READ MORE</button>
                   </div>
@@ -170,6 +171,7 @@ const PageFive = () => {
                       class="smallBlueLine"
                       data-aos="slide-right"
                       data-aos-delay="2000"
+                      data-aos-offset="0"
                     ></div>
                     <button class="blueBtn">READ MORE</button>
                   </div>
@@ -194,6 +196,7 @@ const PageFive = () => {
                       class="smallBlueLine"
                       data-aos="slide-right"
                       data-aos-delay="2000"
+                      data-aos-offset="0"
                     ></div>
                     <button class="blueBtn">READ MORE</button>
                   </div>
