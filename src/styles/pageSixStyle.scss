@@ -40,7 +40,7 @@
         }
       }
     }
-    .social {
+    .socialsec2 {
       height: 100%;
       display: flex;
       flex-direction: row;
@@ -312,12 +312,301 @@
   }
 }
 @media (max-width: 1400px) {
-}
-@media (max-width: 1200px) {
+  .wrapperPageSix {
+    .menu {
+      .logoMenu {
+        height: 75%;
+      }
+      ul {
+        width: 70%;
+        li {
+          font-size: 12px;
+        }
+      }
+      .socialsec2 {
+        width: 20%;
+      }
+    }
+    .mapWrapper {
+      .pulseDot {
+        width: 10px;
+        height: 10px;
+      }
+      @keyframes pulseDot {
+        0% {
+          width: 10px;
+          height: 10px;
+        }
+
+        100% {
+          width: 100px;
+          height: 100px;
+        }
+      }
+      .dot {
+        width: 10px;
+        height: 10px;
+      }
+    }
+    .wrapperSec6 {
+      .messageWrapper {
+        width: 30%;
+        .message {
+          h2 {
+            font-size: 18px;
+          }
+          form {
+            input {
+              font-size: 14px;
+            }
+            select {
+              height: 20%;
+              font-size: 14px;
+            }
+          }
+          .hyperlink {
+            height: 15%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: flex-end;
+            width: 80%;
+            margin: auto;
+            .smallBlueLine {
+              width: 5%;
+              height: 2px;
+              background-color: #0583ff;
+            }
+            button {
+              background-color: Transparent;
+              border: none;
+              cursor: pointer;
+              color: #0583ff;
+              font-size: 14px;
+            }
+          }
+        }
+      }
+      .titleWrapper {
+        width: 40%;
+        height: auto;
+        .title {
+          h1 {
+            font-size: 40px;
+          }
+        }
+        .description {
+          font-size: 14px;
+        }
+      }
+      .addressWrapper {
+        .address {
+          h2 {
+            font-size: 14px;
+          }
+          p {
+            font-size: 14px;
+          }
+        }
+        .phone {
+          h2 {
+            font-size: 14px;
+          }
+          p {
+            font-size: 14px;
+          }
+        }
+        .email {
+          h2 {
+            font-size: 14px;
+          }
+          p {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
 }
 @media (max-width: 1024px) {
+  .wrapperPageSix {
+    .menu {
+      .logoMenu {
+        height: 50%;
+      }
+      ul {
+        width: 70%;
+        li {
+          font-size: 10px;
+        }
+      }
+      .socialsec2 {
+        width: 20%;
+        img {
+          height: 50%;
+          padding: 0 10px;
+        }
+      }
+    }
+    .mapWrapper {
+      .pulseDot {
+        width: 10px;
+        height: 10px;
+      }
+      @keyframes pulseDot {
+        0% {
+          width: 10px;
+          height: 10px;
+        }
+
+        100% {
+          width: 100px;
+          height: 100px;
+        }
+      }
+      .dot {
+        width: 10px;
+        height: 10px;
+      }
+    }
+    .wrapperSec6 {
+      margin-right: 5%;
+      width: 85%;
+      .messageWrapper {
+        height: 90%;
+        .message {
+          h2 {
+            font-size: 16px;
+          }
+          form {
+            input {
+              font-size: 12px;
+            }
+            select {
+              height: 22%;
+              font-size: 12px;
+            }
+          }
+          .hyperlink {
+            button {
+              font-size: 12px;
+            }
+          }
+        }
+      }
+      .addressWrapper {
+        width: 25%;
+        .address {
+          p {
+            font-size: 12px;
+          }
+        }
+        .phone {
+          p {
+            font-size: 12px;
+          }
+        }
+        .email {
+          p {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
 }
 @media (max-width: 768px) {
+  .wrapperPageSix {
+    .menu {
+      ul {
+        li {
+          font-size: 10px;
+          padding: 5px 2%;
+        }
+      }
+      .socialsec2 {
+        img {
+          padding: 0px;
+        }
+      }
+    }
+    .mapWrapper {
+      height: 30%;
+      img {
+        height: 100%;
+        width: auto;
+      }
+      .pulseDot {
+        width: 5px;
+        height: 5px;
+      }
+      @keyframes pulseDot {
+        0% {
+          width: 5px;
+          height: 5px;
+        }
+
+        100% {
+          width: 50px;
+          height: 50px;
+        }
+      }
+      .dot {
+        width: 5px;
+        height: 5px;
+      }
+    }
+    .wrapperSec6 {
+      margin-right: 5%;
+      width: 85%;
+      flex-direction: column;
+      .titleWrapper {
+        width: 100%;
+        flex-direction: row;
+      }
+      .messageWrapper {
+        display: none;
+      }
+      .addressWrapper {
+        width: 100%;
+        flex-direction: row;
+        margin-bottom: 10%;
+        .address {
+          p {
+            font-size: 12px;
+          }
+        }
+        .phone {
+          p {
+            font-size: 12px;
+          }
+        }
+        .email {
+          p {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
 }
 @media (max-width: 480px) {
+  .wrapperPageSix {
+    .menu {
+      ul {
+        flex-wrap: wrap;
+        li {
+          width: 45%;
+          font-size: 10px;
+          padding: 5px 2%;
+        }
+      }
+      .socialsec2 {
+        width: 30%;
+        img {
+          padding: 0px;
+        }
+      }
+    }
+  }
 }

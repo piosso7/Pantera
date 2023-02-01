@@ -315,6 +315,19 @@
       .newsWrapper {
         margin-top: 0;
         height: 75%;
+        .wrapper {
+          .news {
+            div {
+              .text {
+                .hyperlink {
+                  button {
+                    font-size: 10px;
+                  }
+                }
+              }
+            }
+          }
+        }
       }
     }
   }

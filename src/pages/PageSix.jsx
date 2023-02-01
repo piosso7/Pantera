@@ -47,20 +47,31 @@ const PageSix = () => {
             <a onClick={scrollPageSix}>CONTACT US</a>
           </li>
         </ul>
-        <div class="social">
+        <div class="socialsec2">
           <img src={socialin} alt="social" />
           <img src={socialtwitter} alt="social" />
           <img src={socialm} alt="social" />
         </div>
       </div>
-      <div className="mapWrapper" data-aos="zoom-out" data-aos-delay="500">
+      <div
+        className="mapWrapper"
+        data-aos="zoom-out"
+        data-aos-delay="500"
+        data-aos-offset="0"
+      >
         <img className="map" src={map} alt="map" />
         <div
           className="pulseDot"
           data-aos="fade-in"
           data-aos-delay="1400"
+          data-aos-offset="0"
         ></div>
-        <div className="dot" data-aos="fade-in" data-aos-delay="1200"></div>
+        <div
+          className="dot"
+          data-aos="fade-in"
+          data-aos-delay="1200"
+          data-aos-offset="0"
+        ></div>
       </div>
       <div className="wrapperSec6">
         <div className="messageWrapper">
@@ -68,14 +79,20 @@ const PageSix = () => {
             className="blueBox"
             data-aos="slide-down"
             data-aos-delay="800"
+            data-aos-offset="0"
             src={blueBox}
             alt="blueBox"
           />
-          <div className="message" data-aos="slide-down" data-aos-delay="1200">
-            <h2 data-aos="fade-up" data-aos-delay="1600">
+          <div
+            className="message"
+            data-aos="slide-down"
+            data-aos-delay="1200"
+            data-aos-offset="0"
+          >
+            <h2 data-aos="fade-up" data-aos-delay="1600" data-aos-offset="0">
               Reach us through our contact form
             </h2>
-            <form data-aos="fade-up" data-aos-delay="1600">
+            <form data-aos="fade-up" data-aos-delay="1600" data-aos-offset="0">
               <input type="text" name="name" placeholder="Full Name" />
               <input type="number" name="number" placeholder="Phone" />
               <input type="email" name="email" placeholder="E-mail" />
@@ -87,11 +104,17 @@ const PageSix = () => {
               </select>
               <input type="text" name="message" placeholder="Message" />
             </form>
-            <div class="hyperlink" data-aos="fade-up" data-aos-delay="1600">
+            <div
+              class="hyperlink"
+              data-aos="fade-up"
+              data-aos-delay="1600"
+              data-aos-offset="0"
+            >
               <div
                 class="smallBlueLine"
                 data-aos="slide-right"
                 data-aos-delay="2000"
+                data-aos-offset="0"
               ></div>
               <button class="blueBtn">SEND</button>
             </div>
@@ -99,7 +122,7 @@ const PageSix = () => {
         </div>
         <div className="titleWrapper">
           <div className="title">
-            <h1 data-aos="slide-up" data-aos-delay="500">
+            <h1 data-aos="slide-up" data-aos-delay="500" data-aos-offset="0">
               Contact Us
             </h1>
           </div>
@@ -108,11 +131,12 @@ const PageSix = () => {
               className="TBLblue"
               data-aos="flip-left"
               data-aos-delay="500"
+              data-aos-offset="0"
             ></div>
             <div className="TBLgrey"></div>
           </div>
           <div className="description">
-            <p data-aos="slide-down" data-aos-delay="500">
+            <p data-aos="slide-down" data-aos-delay="500" data-aos-offset="0">
               We're ready to collaborate with you everyday. Reach out to us by
               visiting the office, call, or email. If you want to make your life
               easier, fill out the contact form and we will respond within 24h.
@@ -120,16 +144,31 @@ const PageSix = () => {
           </div>
         </div>
         <div className="addressWrapper">
-          <div className="address" data-aos="fade-up" data-aos-delay="800">
+          <div
+            className="address"
+            data-aos="fade-up"
+            data-aos-delay="800"
+            data-aos-offset="0"
+          >
             <h2>ADDRESS</h2>
             <p>1702 Pacific Ave</p>
             <p>Los Angeles, CA 92870</p>
           </div>
-          <div className="phone" data-aos="fade-up" data-aos-delay="900">
+          <div
+            className="phone"
+            data-aos="fade-up"
+            data-aos-delay="900"
+            data-aos-offset="0"
+          >
             <h2>PHONE</h2>
             <p>520 745 5000</p>
           </div>
-          <div className="email" data-aos="fade-up" data-aos-delay="1000">
+          <div
+            className="email"
+            data-aos="fade-up"
+            data-aos-delay="1000"
+            data-aos-offset="0"
+          >
             <h2>EMAIL</h2>
             <p>info@lawpantera.com</p>
           </div>
